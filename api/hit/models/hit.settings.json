@@ -1,0 +1,53 @@
+{
+  "kind": "collectionType",
+  "collectionName": "hits",
+  "info": {
+    "name": "hit",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "cover": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "content": {
+      "type": "string"
+    },
+    "times": {
+      "type": "component",
+      "repeatable": false,
+      "component": "times.times"
+    },
+    "dynamicCom": {
+      "type": "dynamiczone",
+      "components": [
+        "times.times",
+        "profile.profile"
+      ]
+    },
+    "day": {
+      "type": "enumeration",
+      "enum": [
+        "morning",
+        "noon",
+        "evening"
+      ]
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "content"
+    }
+  }
+}

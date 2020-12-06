@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_profile_profiles",
+  "info": {
+    "name": "profile",
+    "icon": "address-book",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "username": {
+      "type": "string"
+    },
+    "age": {
+      "type": "integer"
+    }
+  }
+}

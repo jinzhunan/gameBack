@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_times_times",
+  "info": {
+    "name": "times",
+    "icon": "air-freshener",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "count": {
+      "type": "integer"
+    }
+  }
+}
