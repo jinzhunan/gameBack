@@ -18,5 +18,14 @@ module.exports=({ env })=>   ({
             password: 'woshinjz',
             secure: false
         }
+    },
+    settings: {
+      parser: {
+        enabled: true,
+        multipart: true,
+        formidable: {
+          maxFileSize: 20000000 // defaults to 200mb
+        }
+      }
     }
   });
