@@ -92,9 +92,9 @@ module.exports = {
 
 
         // delete model
-        const entity = await strapi.services.restaurant.delete({ id });
+        const entity2 = await strapi.services.restaurant.delete({ id });
 
-        return sanitizeEntity(entity, { model: strapi.models.restaurant });
+        return sanitizeEntity(entity2, { model: strapi.models.restaurant });
     },
 }
 
