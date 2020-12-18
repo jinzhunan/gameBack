@@ -9,5 +9,5 @@ module.exports = ({ env }) => ({
     },
   },
   cron: { enabled: true},
-  url: "https://strapi-mongo-cloudinary.herokuapp.com"
+  url: "https://jinzhu-game.herokuapp.com"
 });
