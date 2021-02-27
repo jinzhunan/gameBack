@@ -14,7 +14,7 @@
     "bad-words": "^3.0.4",
     "cloudinary": "^1.23.0",
     "dotenv": "^8.2.0",
-    "knex": "<0.20.0",
+    "knex": "^0.19.5",
     "slugify": "^1.4.6",
     "sqlite3": "latest",
     "strapi": "3.3.4",
@@ -27,8 +27,7 @@
     "strapi-plugin-upload": "3.3.4",
     "strapi-plugin-users-permissions": "3.3.4",
     "strapi-provider-email-nodemailer-v3": "^1.0.2",
-    "strapi-provider-upload-cloudinary": "^3.3.4",
-    "strapi-utils": "^3.1.0-alpha.5"
+    "strapi-provider-upload-cloudinary": "^3.3.4"
   },
   "author": {
     "name": "A Strapi developer"
